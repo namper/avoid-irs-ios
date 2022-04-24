@@ -14,6 +14,7 @@
 		D824627128156B800038F066 /* AvoidIRSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824627028156B800038F066 /* AvoidIRSTests.swift */; };
 		D824627B28156B810038F066 /* AvoidIRSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824627A28156B810038F066 /* AvoidIRSUITests.swift */; };
 		D824627D28156B810038F066 /* AvoidIRSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824627C28156B810038F066 /* AvoidIRSUITestsLaunchTests.swift */; };
+		D824628A28156BE80038F066 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D824628928156BE80038F066 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D824627628156B810038F066 /* AvoidIRSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvoidIRSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D824627A28156B810038F066 /* AvoidIRSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidIRSUITests.swift; sourceTree = "<group>"; };
 		D824627C28156B810038F066 /* AvoidIRSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidIRSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D824628928156BE80038F066 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D824625F28156B800038F066 /* AvoidIRSApp.swift */,
 				D824626128156B800038F066 /* ContentView.swift */,
+				D824628928156BE80038F066 /* Model.swift */,
 				D824626328156B800038F066 /* Assets.xcassets */,
 				D824626528156B800038F066 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D824628A28156BE80038F066 /* Model.swift in Sources */,
 				D824626228156B800038F066 /* ContentView.swift in Sources */,
 				D824626028156B800038F066 /* AvoidIRSApp.swift in Sources */,
 			);
