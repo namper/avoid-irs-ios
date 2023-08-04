@@ -9,19 +9,19 @@ import Foundation
 
 
 enum Currency{
-    case usd
-    case gel
+    case USD
+    case GEL
 }
 
+
 class TaxInput: ObservableObject{
-    @Published var amount: String
     @Published var date: Date = Date.now
-    var currrency: Currency
+    @Published var currency: Currency
+    var amount: Double
     
-    
-    init(amount: String, currency: Currency = .usd){
+    init(amount: Double, currency: Currency = .USD){
         self.amount = amount
-        self.currrency = currency
+        self.currency = currency
     }
 
 }
